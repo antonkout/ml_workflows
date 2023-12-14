@@ -21,7 +21,7 @@ This repository aims to provide a set of tools and approaches for machine learni
 2. **XGBoost Classifier**
    - Description: Implementation of the XGBoost classifier for efficient and accurate classification tasks.
 
-3. **Automated Tools (AutoML)**
+3. **Automated Tools**
    - Description: A set of tools for interpolating RS images
 
 ## Usage
