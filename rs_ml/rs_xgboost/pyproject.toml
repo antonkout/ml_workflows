@@ -1,0 +1,26 @@
+[tool.poetry]
+name = " rs-xgboost "
+version = "0.1.0"
+description = "This project runs an xg-boost classifier"
+authors = ["Antonios Koutroumpas <antonkout@gmail.com>"]
+license = "Copyright 2022 AntonKout, all rights reserved."
+
+[tool.poetry.dependencies]
+python = "^3.8"
+faiss-cpu = "1.7.4"
+pandas = "1.5.2"
+numpy = "1.23.4"
+rasterio = "1.2.10"
+scipy = "1.9.3"
+matplotlib = "3.7.4"
+seaborn = "0.13.0"
+scikit-learn = "1.0.2"
+xgboost = "2.0.2"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

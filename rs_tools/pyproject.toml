@@ -1,0 +1,21 @@
+[tool.poetry]
+name = " rs-tools "
+version = "0.1.0"
+description = "This project runs rs tools"
+authors = ["Antonios Koutroumpas <antonkout@gmail.com>"]
+license = "Copyright 2022 AntonKout, all rights reserved."
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "1.23.4"
+rasterio = "1.2.10"
+scikit-image = "0.17.2"
+geopandas = "0.8.0"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
