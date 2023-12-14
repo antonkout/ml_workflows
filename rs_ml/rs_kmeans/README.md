@@ -1,4 +1,3 @@
-[![Live-EO CookieCutter](https://www.gitlab.com//liveeo/liveeo-python-cookiecutter/raw/master/files/badges/liveeo_cc_v170.svg)](https://gitlab.com/liveeo/liveeo-python-cookiecutter)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
 
 # Unsupervised classification using k-means
